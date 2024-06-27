@@ -110,7 +110,6 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
         shiftImage.paintIcon(this, g, 695, 625);
         g.drawString("Boost", 770, 640);
 
-
         snakeHead = new ImageIcon("images/snakeHead4.png");
         snakeHead.paintIcon(this, g, snake.snakexLength[0], snake.snakeyLength[0]);
 
